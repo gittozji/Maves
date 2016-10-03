@@ -28,7 +28,7 @@
 	
 	.waves-effect-animation{
 		animation: animation-definition 1s ease-out;  
-		/*¼æÈİ¸÷´óä¯ÀÀÆ÷*/
+		/*å…¼å®¹å„å¤§æµè§ˆå™¨*/
 		-moz-animation: animation-definition 1s ease-out;  
 		-webkit-animation: animation-definition 1s ease-out;  
 		-o-animation: animation-definition 1s ease-out;  
@@ -40,7 +40,7 @@
 		}  
 		
 		to{  
-			transform: scale(2); /*ÒòÎªÁ°äôµÄ´óĞ¡Îª±êÇ©µÄ×î³¤±ß£¬ÎªÁË±£Ö¤µã»÷±êÇ©±ßÔµÊ±£¬Á°äôÒ²ÄÜ¸²¸ÇÕû¸ö±êÇ©£¬scaleÖµ×îĞ¡Ó¦Îª2*/
+			transform: scale(2); /*å› ä¸ºæ¶Ÿæ¼ªçš„å¤§å°ä¸ºæ ‡ç­¾çš„æœ€é•¿è¾¹ï¼Œä¸ºäº†ä¿è¯ç‚¹å‡»æ ‡ç­¾è¾¹ç¼˜æ—¶ï¼Œæ¶Ÿæ¼ªä¹Ÿèƒ½è¦†ç›–æ•´ä¸ªæ ‡ç­¾ï¼Œscaleå€¼æœ€å°åº”ä¸º2*/
 			opacity: 0;			
 		} 
 	}    

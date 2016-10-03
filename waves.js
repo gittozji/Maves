@@ -5,7 +5,7 @@ $(document).ready(function(){
 		var box = $(this);
 		var wavesDiv = box.find("div");
 		
-		//µÚÒ»´ÎÃ»ÓĞÁ°äôdiv£¬¶¯Ì¬Éú³É
+		//ç¬¬ä¸€æ¬¡æ²¡æœ‰æ¶Ÿæ¼ªdivï¼ŒåŠ¨æ€ç”Ÿæˆ
 		if(wavesDiv[0] == null){
 			var div = "<div class='waves-effect'></div>";
 			box.append(div);
@@ -13,22 +13,22 @@ $(document).ready(function(){
 		}
 		
 	
-		//ÉèÖÃ°´Å¥ÑùÊ½Îª¡¯waves-effect¡®¼´È¥µô¶¯»­ÑùÊ½¡¯waves-effect-animation¡®
+		//è®¾ç½®æŒ‰é’®æ ·å¼ä¸ºâ€™waves-effectâ€˜å³å»æ‰åŠ¨ç”»æ ·å¼â€™waves-effect-animationâ€˜
 		wavesDiv[0].className = 'waves-effect';
 		
-		//¼ÆËãÁ°äô×ø±ê£¨ÕÛËã³É×óÉÏ½Ç×ø±ê¶ø·ÇÖĞĞÄµã£©£¬Á°äô´óĞ¡£¨È¡Íâ±êÇ©×î³¤±ß£©
+		//è®¡ç®—æ¶Ÿæ¼ªåæ ‡ï¼ˆæŠ˜ç®—æˆå·¦ä¸Šè§’åæ ‡è€Œéä¸­å¿ƒç‚¹ï¼‰ï¼Œæ¶Ÿæ¼ªå¤§å°ï¼ˆå–å¤–æ ‡ç­¾æœ€é•¿è¾¹ï¼‰
 		var wH = box.width() > box.height() ? box.width() : box.height();
 		var iX = e.pageX - box.offset().left;
 		var iY = e.pageY - box.offset().top;
 		var nX = iX - wH/2;
 		var nY = iY - wH/2;
 
-		//ÉèÖÃÁ°äôdivÑùÊ½£¬×¼±¸²¥·Å¶¯»­
+		//è®¾ç½®æ¶Ÿæ¼ªdivæ ·å¼ï¼Œå‡†å¤‡æ’­æ”¾åŠ¨ç”»
 		wavesDiv.css({
 			width: wH,
 			height: wH,
 			left: nX,
 			top: nY
-		}).addClass("waves-effect-animation");//²¥·Å¶¯»­
+		}).addClass("waves-effect-animation");//æ’­æ”¾åŠ¨ç”»
 	});
 });
