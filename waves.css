@@ -44,3 +44,36 @@
 			opacity: 0;			
 		} 
 	}    
+	@-webkit-keyframes animation-definition {  
+		from{  
+			transform: scale(0.1);  
+			opacity: 1;
+		}  
+		
+		to{  
+			transform: scale(2); /*因为涟漪的大小为标签的最长边，为了保证点击标签边缘时，涟漪也能覆盖整个标签，scale值最小应为2*/
+			opacity: 0;			
+		} 
+	}    
+	@-moz-keyframes animation-definition {  
+		from{  
+			transform: scale(0.1);  
+			opacity: 1;
+		}  
+		
+		to{  
+			transform: scale(2); /*因为涟漪的大小为标签的最长边，为了保证点击标签边缘时，涟漪也能覆盖整个标签，scale值最小应为2*/
+			opacity: 0;			
+		} 
+	}  
+	@-o-keyframes animation-definition {  
+		from{  
+			transform: scale(0.1);  
+			opacity: 1;
+		}  
+		
+		to{  
+			transform: scale(2); /*因为涟漪的大小为标签的最长边，为了保证点击标签边缘时，涟漪也能覆盖整个标签，scale值最小应为2*/
+			opacity: 0;			
+		} 
+	}    	
