@@ -1,4 +1,4 @@
-.waves{
+.mmd-waves{
 		box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 		border-radius: 3px;
 		display: inline-block;
@@ -9,12 +9,12 @@
 		opacity: 0.9;
 		text-align:center;
 	}
-	.waves:hover{
+	.mmd-waves:hover{
 		opacity: 1;
 		box-shadow: 0 3px 6px 0 rgba(0,0,0,0.20),0 3px 12px 0 rgba(0,0,0,0.16);
 	}
 	
-	.waves-effect{
+	.mmd-waves-effect{
 		border-radius: 100%;
 		background-color:#D8D8D8;
 		left: 20px;
@@ -26,14 +26,14 @@
 
 	}
 	
-	.waves-effect-animation{
-		animation: animation-definition 1s ease-out;  
+	.mmd-waves-effect-animation{
+		animation: mmd-animation-definition 1s ease-out;  
 		/*兼容各大浏览器*/
-		-moz-animation: animation-definition 1s ease-out;  
-		-webkit-animation: animation-definition 1s ease-out;  
-		-o-animation: animation-definition 1s ease-out;  
+		-moz-animation: mmd-animation-definition 1s ease-out;  
+		-webkit-animation: mmd-animation-definition 1s ease-out;  
+		-o-animation: mmd-animation-definition 1s ease-out;  
 	}
-	@keyframes animation-definition {  
+	@keyframes mmd-mmd-animation-definition {  
 		from{  
 			transform: scale(0.1);  
 			opacity: 1;
@@ -44,7 +44,7 @@
 			opacity: 0;			
 		} 
 	}    
-	@-webkit-keyframes animation-definition {  
+	@-webkit-keyframes mmd-animation-definition {  
 		from{  
 			transform: scale(0.1);  
 			opacity: 1;
@@ -55,7 +55,7 @@
 			opacity: 0;			
 		} 
 	}    
-	@-moz-keyframes animation-definition {  
+	@-moz-keyframes mmd-animation-definition {  
 		from{  
 			transform: scale(0.1);  
 			opacity: 1;
@@ -66,7 +66,7 @@
 			opacity: 0;			
 		} 
 	}  
-	@-o-keyframes animation-definition {  
+	@-o-keyframes mmd-animation-definition {  
 		from{  
 			transform: scale(0.1);  
 			opacity: 1;
